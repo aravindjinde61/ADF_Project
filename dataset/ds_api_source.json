@@ -1,0 +1,19 @@
+{
+	"name": "ds_api_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_GitHub",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "aravindjinde61/ADF_Project/refs/heads/main/ADF_Files/DimAirport.json"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

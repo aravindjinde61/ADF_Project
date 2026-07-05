@@ -1,0 +1,15 @@
+{
+	"name": "jindeADF",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "905c7e96-0b58-4d5e-b56b-1402a338ed20",
+		"tenantId": "a1b8078e-dd6d-4c28-9dd4-69982abe08c9"
+	}
+}
